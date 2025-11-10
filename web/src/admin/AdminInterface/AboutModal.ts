@@ -47,7 +47,7 @@ export class AboutModal extends WithLicenseSummary(WithBrandConfig(ModalButton))
             [msg("Version"), version.versionCurrent],
             [msg("UI Version"), import.meta.env.AK_VERSION],
             [msg("Build"), build],
-            [msg("Python version"), status.runtime.pythonVersion],
+            [msg("Python version12"), status.runtime.pythonVersion],
             [msg("Platform"), status.runtime.platform],
             [msg("Kernel"), status.runtime.uname],
             [
